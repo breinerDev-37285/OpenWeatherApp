@@ -19,36 +19,43 @@ export const useSearch = ({
   const [query, setQuery] = useState<string>("");
   const [error, setError] = useState<string>("");
 
-  const handleSearch = useCallback(async (value: string) => {
-    if (!value) return;
-    try {
-      dispatch(setLoading(true));
-      await searchSchema.validate({ query: value });
-      const { results } = await search(value);
-      if (!results) throw new Error("No results found");
+  const handleSearch = useCallback(
+    async (value: string) => {
+      if (!value) return;
+      try {
+        dispatch(setLoading(true));
+        await searchSchema.validate({ query: value });
+        const { results } = await search(value);
 
-      const resultsMapped = results.map(({ formatted, geometry }) => ({
-        name: formatted,
-        lat: geometry.lat,
-        lng: geometry.lng,
-      }));
+        if (!results || results.length === 0) {
+          setError("Resultados no encontrados");
+          throw new Error("No results found");
+        }
 
-      const uniqueResults = Array.from(
-        new Map(resultsMapped.map((item) => [item.name, item])).values()
-      );
+        const resultsMapped = results.map(({ formatted, geometry }) => ({
+          name: formatted,
+          lat: geometry.lat,
+          lng: geometry.lng,
+        }));
 
-      setCities(uniqueResults);
-    } catch (error: any) {
-      console.error(error);
-      if (error instanceof ValidationError) {
-        setError(error.message);
+        const uniqueResults = Array.from(
+          new Map(resultsMapped.map((item) => [item.name, item])).values()
+        );
+
+        setCities(uniqueResults);
+      } catch (error: any) {
+        console.error(error);
+        if (error instanceof ValidationError) {
+          setError(error.message);
+        }
+        setActiveDropdown(false);
+        setCities([]);
+      } finally {
+        dispatch(setLoading(false));
       }
-      setActiveDropdown(false);
-      setCities([]);
-    } finally {
-      dispatch(setLoading(false));
-    }
-  }, [dispatch]);
+    },
+    [dispatch]
+  );
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>): void => {
     const value = e.target.value;
