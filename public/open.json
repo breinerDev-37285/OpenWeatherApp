@@ -1,0 +1,462 @@
+[
+  {
+    "annotations": {
+      "DMS": {
+        "lat": "43° 7' 53.92956'' N",
+        "lng": "2° 3' 44.12664'' W"
+      },
+      "MGRS": "30TWN7627075860",
+      "Maidenhead": "IN83xd21mo",
+      "Mercator": {
+        "x": -229569.444,
+        "y": 5302809.473
+      },
+      "NUTS": {
+        "NUTS0": {
+          "code": "ES"
+        },
+        "NUTS1": {
+          "code": "ES2"
+        },
+        "NUTS2": {
+          "code": "ES21"
+        },
+        "NUTS3": {
+          "code": "ES212"
+        }
+      },
+      "OSM": {
+        "edit_url": "https://www.openstreetmap.org/edit?relation=347587#map=17/43.13165/-2.06226",
+        "note_url": "https://www.openstreetmap.org/note/new#map=17/43.13165/-2.06226&layers=N",
+        "url": "https://www.openstreetmap.org/?mlat=43.13165&mlon=-2.06226#map=17/43.13165/-2.06226"
+      },
+      "UN_M49": {
+        "regions": {
+          "ES": "724",
+          "EUROPE": "150",
+          "SOUTHERN_EUROPE": "039",
+          "WORLD": "001"
+        },
+        "statistical_groupings": ["MEDC"]
+      },
+      "callingcode": 34,
+      "currency": {
+        "alternate_symbols": [],
+        "decimal_mark": ",",
+        "html_entity": "€",
+        "iso_code": "EUR",
+        "iso_numeric": "978",
+        "name": "Euro",
+        "smallest_denomination": 1,
+        "subunit": "Cent",
+        "subunit_to_unit": 100,
+        "symbol": "€",
+        "symbol_first": 0,
+        "thousands_separator": "."
+      },
+      "flag": "🇪🇸",
+      "geohash": "ezwt35fk1cv2vdx31x7c",
+      "qibla": 108.44,
+      "roadinfo": {
+        "drive_on": "right",
+        "speed_in": "km/h"
+      },
+      "sun": {
+        "rise": {
+          "apparent": 1739948460,
+          "astronomical": 1739942760,
+          "civil": 1739946720,
+          "nautical": 1739944740
+        },
+        "set": {
+          "apparent": 1739987040,
+          "astronomical": 1739992740,
+          "civil": 1739988780,
+          "nautical": 1739990760
+        }
+      },
+      "timezone": {
+        "name": "Europe/Madrid",
+        "now_in_dst": 0,
+        "offset_sec": 3600,
+        "offset_string": "+0100",
+        "short_name": "CET"
+      },
+      "what3words": {
+        "words": "coñacs.ríos.puerto"
+      },
+      "wikidata": "Q1618296"
+    },
+    "bounds": {
+      "northeast": {
+        "lat": 43.1623956,
+        "lng": -2.0100021
+      },
+      "southwest": {
+        "lat": 43.1218874,
+        "lng": -2.0710785
+      }
+    },
+    "components": {
+      "ISO_3166-1_alpha-2": "ES",
+      "ISO_3166-1_alpha-3": "ESP",
+      "ISO_3166-2": ["ES-PV", "ES-SS"],
+      "_category": "place",
+      "_normalized_city": "Ibarra",
+      "_type": "village",
+      "continent": "Europe",
+      "country": "España",
+      "country_code": "es",
+      "political_union": "European Union",
+      "postcode": "20400",
+      "province": "Guipúzcoa",
+      "state": "País Vasco",
+      "state_code": "PV",
+      "village": "Ibarra"
+    },
+    "confidence": 7,
+    "formatted": "20400 Ibarra, España",
+    "geometry": {
+      "lat": 43.1316471,
+      "lng": -2.0622574
+    }
+  },
+  {
+    "annotations": {
+      "DMS": {
+        "lat": "0° 30' 57.37284'' N",
+        "lng": "78° 7' 58.60128'' W"
+      },
+      "MGRS": "17NRA1915257098",
+      "Maidenhead": "FJ00wm43bt",
+      "Mercator": {
+        "x": -8697719.631,
+        "y": 57050.136
+      },
+      "OSM": {
+        "edit_url": "https://www.openstreetmap.org/edit?relation=113983#map=17/0.51594/-78.13294",
+        "note_url": "https://www.openstreetmap.org/note/new#map=17/0.51594/-78.13294&layers=N",
+        "url": "https://www.openstreetmap.org/?mlat=0.51594&mlon=-78.13294#map=17/0.51594/-78.13294"
+      },
+      "UN_M49": {
+        "regions": {
+          "AMERICAS": "019",
+          "EC": "218",
+          "LATIN_AMERICA": "419",
+          "SOUTH_AMERICA": "005",
+          "WORLD": "001"
+        },
+        "statistical_groupings": ["LEDC"]
+      },
+      "callingcode": 593,
+      "currency": {
+        "alternate_symbols": ["US$"],
+        "decimal_mark": ".",
+        "disambiguate_symbol": "US$",
+        "html_entity": "$",
+        "iso_code": "USD",
+        "iso_numeric": "840",
+        "name": "United States Dollar",
+        "smallest_denomination": 1,
+        "subunit": "Cent",
+        "subunit_to_unit": 100,
+        "symbol": "$",
+        "symbol_first": 1,
+        "thousands_separator": ","
+      },
+      "flag": "🇪🇨",
+      "geohash": "d206yjcmd3tey1pwqngz",
+      "qibla": 65.82,
+      "roadinfo": {
+        "drive_on": "right",
+        "speed_in": "km/h"
+      },
+      "sun": {
+        "rise": {
+          "apparent": 1739964240,
+          "astronomical": 1739960040,
+          "civil": 1739962980,
+          "nautical": 1739961540
+        },
+        "set": {
+          "apparent": 1740007680,
+          "astronomical": 1739925480,
+          "civil": 1740008940,
+          "nautical": 1739924040
+        }
+      },
+      "timezone": {
+        "name": "America/Guayaquil",
+        "now_in_dst": 0,
+        "offset_sec": -18000,
+        "offset_string": "-0500",
+        "short_name": "-05"
+      },
+      "what3words": {
+        "words": "perreras.evaluada.tardaba"
+      },
+      "wikidata": "Q3656069"
+    },
+    "bounds": {
+      "northeast": {
+        "lat": 0.8766144,
+        "lng": -77.9624313
+      },
+      "southwest": {
+        "lat": 0.1550803,
+        "lng": -78.4595168
+      }
+    },
+    "components": {
+      "ISO_3166-1_alpha-2": "EC",
+      "ISO_3166-1_alpha-3": "ECU",
+      "ISO_3166-2": ["EC-I"],
+      "_category": "place",
+      "_type": "county",
+      "continent": "South America",
+      "country": "Ecuador",
+      "country_code": "ec",
+      "county": "Ibarra",
+      "state": "Imbabura",
+      "state_code": "I"
+    },
+    "confidence": 1,
+    "formatted": "Ibarra, Ecuador",
+    "geometry": {
+      "lat": 0.5159369,
+      "lng": -78.1329448
+    }
+  },
+  {
+    "annotations": {
+      "DMS": {
+        "lat": "0° 21' 7.36524'' N",
+        "lng": "78° 7' 11.89776'' W"
+      },
+      "MGRS": "17NRA2060438961",
+      "Maidenhead": "FJ00wi54ol",
+      "Mercator": {
+        "x": -8696275.459,
+        "y": 38927.469
+      },
+      "OSM": {
+        "edit_url": "https://www.openstreetmap.org/edit?relation=3742357#map=17/0.35205/-78.11997",
+        "note_url": "https://www.openstreetmap.org/note/new#map=17/0.35205/-78.11997&layers=N",
+        "url": "https://www.openstreetmap.org/?mlat=0.35205&mlon=-78.11997#map=17/0.35205/-78.11997"
+      },
+      "UN_M49": {
+        "regions": {
+          "AMERICAS": "019",
+          "EC": "218",
+          "LATIN_AMERICA": "419",
+          "SOUTH_AMERICA": "005",
+          "WORLD": "001"
+        },
+        "statistical_groupings": ["LEDC"]
+      },
+      "callingcode": 593,
+      "currency": {
+        "alternate_symbols": ["US$"],
+        "decimal_mark": ".",
+        "disambiguate_symbol": "US$",
+        "html_entity": "$",
+        "iso_code": "USD",
+        "iso_numeric": "840",
+        "name": "United States Dollar",
+        "smallest_denomination": 1,
+        "subunit": "Cent",
+        "subunit_to_unit": 100,
+        "symbol": "$",
+        "symbol_first": 1,
+        "thousands_separator": ","
+      },
+      "flag": "🇪🇨",
+      "geohash": "d206n24fbdp5x4vzwcgv",
+      "qibla": 65.9,
+      "roadinfo": {
+        "drive_on": "right",
+        "speed_in": "km/h"
+      },
+      "sun": {
+        "rise": {
+          "apparent": 1739964240,
+          "astronomical": 1739960040,
+          "civil": 1739962980,
+          "nautical": 1739961540
+        },
+        "set": {
+          "apparent": 1740007680,
+          "astronomical": 1739925480,
+          "civil": 1740008940,
+          "nautical": 1739924040
+        }
+      },
+      "timezone": {
+        "name": "America/Guayaquil",
+        "now_in_dst": 0,
+        "offset_sec": -18000,
+        "offset_string": "-0500",
+        "short_name": "-05"
+      },
+      "what3words": {
+        "words": "mera.amada.venas"
+      },
+      "wikidata": "Q946384"
+    },
+    "bounds": {
+      "northeast": {
+        "lat": 0.4998944,
+        "lng": -78.0250159
+      },
+      "southwest": {
+        "lat": 0.2601626,
+        "lng": -78.1758599
+      }
+    },
+    "components": {
+      "ISO_3166-1_alpha-2": "EC",
+      "ISO_3166-1_alpha-3": "ECU",
+      "ISO_3166-2": ["EC-I"],
+      "_category": "place",
+      "_normalized_city": "Ibarra",
+      "_type": "municipality",
+      "continent": "South America",
+      "country": "Ecuador",
+      "country_code": "ec",
+      "county": "Ibarra",
+      "municipality": "Ibarra",
+      "state": "Imbabura",
+      "state_code": "I"
+    },
+    "confidence": 4,
+    "formatted": "Ibarra, Ecuador",
+    "geometry": {
+      "lat": 0.3520459,
+      "lng": -78.1199716
+    }
+  },
+  {
+    "annotations": {
+      "DMS": {
+        "lat": "43° 3' 9.96516'' N",
+        "lng": "2° 33' 52.65468'' W"
+      },
+      "MGRS": "30TWN3545666766",
+      "Maidenhead": "IN83rb22fp",
+      "Mercator": {
+        "x": -285492.894,
+        "y": 5290828.282
+      },
+      "NUTS": {
+        "NUTS0": {
+          "code": "ES"
+        },
+        "NUTS1": {
+          "code": "ES2"
+        },
+        "NUTS2": {
+          "code": "ES21"
+        },
+        "NUTS3": {
+          "code": "ES211"
+        }
+      },
+      "OSM": {
+        "edit_url": "https://www.openstreetmap.org/edit?node=310680175#map=17/43.05277/-2.56463",
+        "note_url": "https://www.openstreetmap.org/note/new#map=17/43.05277/-2.56463&layers=N",
+        "url": "https://www.openstreetmap.org/?mlat=43.05277&mlon=-2.56463#map=17/43.05277/-2.56463"
+      },
+      "UN_M49": {
+        "regions": {
+          "ES": "724",
+          "EUROPE": "150",
+          "SOUTHERN_EUROPE": "039",
+          "WORLD": "001"
+        },
+        "statistical_groupings": ["MEDC"]
+      },
+      "callingcode": 34,
+      "currency": {
+        "alternate_symbols": [],
+        "decimal_mark": ",",
+        "html_entity": "€",
+        "iso_code": "EUR",
+        "iso_numeric": "978",
+        "name": "Euro",
+        "smallest_denomination": 1,
+        "subunit": "Cent",
+        "subunit_to_unit": 100,
+        "symbol": "€",
+        "symbol_first": 0,
+        "thousands_separator": "."
+      },
+      "flag": "🇪🇸",
+      "geohash": "ezwhvts2xcsj2be89zzb",
+      "qibla": 107.88,
+      "roadinfo": {
+        "drive_on": "right",
+        "speed_in": "km/h"
+      },
+      "sun": {
+        "rise": {
+          "apparent": 1739948580,
+          "astronomical": 1739942880,
+          "civil": 1739946840,
+          "nautical": 1739944860
+        },
+        "set": {
+          "apparent": 1739987160,
+          "astronomical": 1739992860,
+          "civil": 1739988900,
+          "nautical": 1739990880
+        }
+      },
+      "timezone": {
+        "name": "Europe/Madrid",
+        "now_in_dst": 0,
+        "offset_sec": 3600,
+        "offset_string": "+0100",
+        "short_name": "CET"
+      },
+      "what3words": {
+        "words": "ampolla.inquietud.vernos"
+      },
+      "wikidata": "Q3147393"
+    },
+    "bounds": {
+      "northeast": {
+        "lat": 43.0727681,
+        "lng": -2.5446263
+      },
+      "southwest": {
+        "lat": 43.0327681,
+        "lng": -2.5846263
+      }
+    },
+    "components": {
+      "ISO_3166-1_alpha-2": "ES",
+      "ISO_3166-1_alpha-3": "ESP",
+      "ISO_3166-2": ["ES-PV", "ES-VI"],
+      "_category": "place",
+      "_normalized_city": "Aramayona",
+      "_type": "village",
+      "continent": "Europe",
+      "country": "España",
+      "country_code": "es",
+      "county": "Estribaciones del Gorbea",
+      "municipality": "Aramayona",
+      "political_union": "European Union",
+      "postcode": "01160",
+      "province": "Álava",
+      "state": "País Vasco",
+      "state_code": "PV",
+      "village": "Aramayona"
+    },
+    "confidence": 7,
+    "formatted": "01160 Aramayona, España",
+    "geometry": {
+      "lat": 43.0527681,
+      "lng": -2.5646263
+    }
+  }
+]

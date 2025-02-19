@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body,
+html {
+  box-sizing: border-box;
+}
+
+@layer base {
+  body {
+    background-color: #301c59;
+    font-family: Arial, Helvetica, sans-serif;
+    block-size: 100%;
+  }
+
+  main {
+    padding: 1rem;
+    min-block-size: 100dvh;
+    @apply flex justify-center items-center;
+  }
+
+  :is(body, ul)::-webkit-scrollbar {
+    display: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  figure,
+  th {
+    text-wrap: balance;
+  }
+
+  p,
+  pre,
+  blockquote,
+  dl,
+  dd,
+  dt,
+  td {
+    text-wrap: pretty;
+  }
+}
+
+.loader {
+  inline-size: var(--loader-size, 48px);
+  block-size: var(--loader-size, 48px);
+  border: 3px solid var(--loader-color, #fff);
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+
+  &::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-start: 50%;
+    transform: translate(-50%, -50%);
+    inline-size: var(--internal-loader-size, 56px);
+    block-size: var(--internal-loader-size, 56px);
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-block-end-color: #ff3d00;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

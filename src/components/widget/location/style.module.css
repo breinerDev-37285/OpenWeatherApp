@@ -1,0 +1,14 @@
+.location_container {
+  @apply flex justify-center items-center gap-2 rounded-lg p-0 text-center;
+  span {
+    @apply text-2xl font-bold uppercase;
+  }
+}
+
+.location_wrapper {
+  @apply flex flex-col gap-0 rounded-lg p-2 text-center;
+}
+
+.text_date {
+  @apply text-base capitalize;
+}

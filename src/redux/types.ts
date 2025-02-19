@@ -1,0 +1,4 @@
+export const SET_SELECTED_CITY = "SET_SELECTED_CITY";
+export const SET_LOADING = "SET_LOADING";
+export const SET_WEATHER = "SET_WEATHER";
+export const SET_TIME_OF_DAY = "SET_TIME_OF_DAY";

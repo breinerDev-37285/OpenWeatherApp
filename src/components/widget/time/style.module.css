@@ -1,0 +1,31 @@
+.container {
+  @apply flex flex-col gap-4;
+}
+
+.container_main {
+  @apply flex flex-col items-center gap-0 rounded-lg p-0 text-center;
+}
+
+.img {
+  @apply w-20 h-20 block object-cover;
+}
+
+.text_weather_state {
+  @apply text-xs capitalize font-bold;
+}
+
+.container_items {
+  @apply flex gap-4 rounded-lg p-2 text-center justify-center items-center;
+}
+
+.item {
+  @apply flex gap-3 items-center;
+
+  span {
+    @apply text-xs font-extralight;
+  }
+}
+
+.item_icon {
+  @apply w-6 h-6 block;
+}

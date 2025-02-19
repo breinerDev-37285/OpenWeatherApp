@@ -1,0 +1,32 @@
+.base_card {
+  max-inline-size: 380px;
+  background-blend-mode: darken, luminosity;
+  inline-size: 100%;
+  min-block-size: 650px;
+  @apply rounded-lg relative text-white rounded shadow-lg flex justify-center gap-2 hover:shadow-xl transition ease-in-out duration-300;
+}
+
+.img {
+  inline-size: 100%;
+  block-size: 100%;
+  @apply rounded-lg opacity-[0.3] object-cover z-10 block absolute inset-0;
+}
+
+.content {
+  min-block-size: 650px;
+  inline-size: 100%;
+  @apply flex flex-col gap-3 px-4 pt-10 rounded-lg text-center relative inset-0 z-20;
+}
+
+.wrapper_loader {
+  block-size: 100%;
+  @apply flex justify-center items-center -mt-5;
+}
+
+.content_widgets {
+  @apply flex flex-col items-center gap-10 mt-5;
+}
+
+.search_icon {
+  @apply w-6 h-6 block;
+}

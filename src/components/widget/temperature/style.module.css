@@ -1,0 +1,11 @@
+.container {
+  @apply rounded-lg p-0 text-center p-2;
+}
+
+.temperature_value  {
+  @apply flex items-start text-7xl font-extralight;
+}
+
+.temperature_symbol {
+  @apply text-lg block font-bold;
+}
