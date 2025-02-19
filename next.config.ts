@@ -3,9 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: false,
   poweredByHeader: false,
-  experimental: {
-    forceSwcTransforms: true,
-  },
   headers: async () => [
     {
       source: "/:path*",
